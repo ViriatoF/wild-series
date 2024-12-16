@@ -9,10 +9,33 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #eee;
+  background-color: rgb(14, 12, 37);
   margin: 0;
 }
 
-#root {
+.programs-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  border: 2px solid grey;
+  border-radius: 8px;
+  box-shadow: rgba(255, 254, 254, 0.7) 0px 2px 8px 0px;
+}
+
+figure img {
+  width: 20em;
+}
+
+/* #root {
   height: 100vh;
   background-image: url("./assets/images/background.webp");
   background-size: cover;
@@ -142,4 +165,4 @@ footer {
       #a00ac9, 0 0 60px #ff0000, 0 0 10px #970dc5, 0 0 98px #ff0000;
     color: #fff;
   }
-}
+} */
